@@ -1,0 +1,52 @@
+# Foreground colours
+printf -v fg_black   '\e[30m'
+printf -v fg_red     '\e[31m'
+printf -v fg_green   '\e[32m'
+printf -v fg_yellow  '\e[33m'
+printf -v fg_blue    '\e[34m'
+printf -v fg_magenta '\e[35m'
+printf -v fg_cyan    '\e[36m'
+printf -v fg_white   '\e[37m'
+
+# Bright foreground colours
+printf -v fg_BLACK   '\e[90m'
+printf -v fg_RED     '\e[91m'
+printf -v fg_GREEN   '\e[92m'
+printf -v fg_YELLOW  '\e[93m'
+printf -v fg_BLUE    '\e[94m'
+printf -v fg_MAGENTA '\e[95m'
+printf -v fg_CYAN    '\e[96m'
+printf -v fg_WHITE   '\e[97m'
+
+# Background colours
+printf -v bg_black   '\e[40m'
+printf -v bg_red     '\e[41m'
+printf -v bg_green   '\e[42m'
+printf -v bg_yellow  '\e[43m'
+printf -v bg_blue    '\e[44m'
+printf -v bg_magenta '\e[45m'
+printf -v bg_cyan    '\e[46m'
+printf -v bg_white   '\e[47m'
+
+# Bright background colours
+printf -v bg_BLACK   '\e[100m'
+printf -v bg_RED     '\e[101m'
+printf -v bg_GREEN   '\e[102m'
+printf -v bg_YELLOW  '\e[103m'
+printf -v bg_BLUE    '\e[104m'
+printf -v bg_MAGENTA '\e[105m'
+printf -v bg_CYAN    '\e[106m'
+printf -v bg_WHITE   '\e[107m'
+
+# Text attributes
+printf -v bold       '\e[1m'
+printf -v dim        '\e[2m'
+printf -v italic     '\e[3m'
+printf -v underline  '\e[4m'
+printf -v blink      '\e[5m'
+printf -v reverse    '\e[7m'
+printf -v hidden     '\e[8m'
+printf -v strike     '\e[9m'
+
+# Attributes reset
+printf -v reset      '\e[0m'

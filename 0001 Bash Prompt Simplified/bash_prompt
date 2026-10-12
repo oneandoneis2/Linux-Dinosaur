@@ -1,0 +1,2 @@
+source ~/.bash_prompt_vars
+PS1='\[$bold$fg_green\]\u@\h\[$reset\]:\[$bold$fg_blue\]\w\[$reset\]\$ '
